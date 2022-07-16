@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Berlin Sans FB Demi';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Berlin Sans FB Demi'), url('https://fonts.cdnfonts.com/s/13625/BRLNSDB.woff') format('woff');
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+main{
+	background: #0f54f7;
+}
+
+p{
+	color: #fff;
+	font-family: 'Berlin Sans FB Demi',sans-serif;
+	font-weight: 700;
+}
+
+.texto_1 p{
+	background: #0f54f7;
+	padding-left: 1.5vw;
+	padding-bottom: 0.5vh;
+	padding-top: 5.5vh;
+	border-bottom: 10px solid white;
+	font-size: 3vw;
+	width: 25vw;
+	margin-left: 3vw;
+}
+
+.texto_2 p{
+	background: #0f54f7;
+	margin-top: 4vh;
+	margin-left: 3vw;
+	font-size: 5.5vw;
+	width: 35vw;
+}
+
+#caja{
+	background: #0f54f7;
+	width: 50vw;
+	float: right;
+	display: grid;
+	gap: 4vh;
+	margin-right: 4vw;
+	margin-top: -25%;
+}
+img{
+	position: relative;
+	right: -6vw;
+	width: 34vw;
+}
+
+.contacto{
+	color: black;
+	font-size: 3vw;
+	margin-bottom: -3vmin;
+}
+
+form{
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 4vh;
+	background: white;
+	width:50vw;
+	height: 40vmin;
+	box-shadow: 2px 2px 2px 2px black;
+	padding: 20px;
+	margin-top: -4.5vh;
+}
+
+input{
+	font-size: 2vw;
+	padding-left: 2vmin;
+	font-weight: 700;
+}
+
+div svg{
+	position: fixed;
+	z-index: -10;
+	left: 10;
+}
+
+a img{
+	margin-top: 6vh;
+	border-radius: 30% ;
+	padding: 15px;
+	width: 6vmax;
+	min-width: 48px;
+	background: #0f54f7;
+	border: 5px;
+	margin-left: 1vmax;
+}
+::-webkit-scrollbar {
+    display: none;
+}
